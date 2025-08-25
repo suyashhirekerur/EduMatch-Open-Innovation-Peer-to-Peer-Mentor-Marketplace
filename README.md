@@ -59,35 +59,7 @@ git clone https://github.com/suyashhirekerur/EduMatch-Open-Innovation-Peer-to-Pe
 pip install -r requirements.txt
 
 # Run Application
-python app.py
-
-
-Access at: http://localhost:5000
-
-📁 Project Structure
-edumatch-p2p-mentor/
-├── app.py               # Main backend application
-├── index.html           # Landing page
-├── style.css            # Stylesheet
-├── script.js            # Frontend logic + Local Storage
-├── requirements.txt     # Dependencies
-├── .gitignore
-├── README.md
-├── core/                # Core application modules
-│   ├── matching.py      # Mentor recommendation algorithms
-│   ├── chat.py          # Conversational interface
-│   ├── filters.py       # Domain and skills filter logic
-│   └── utils.py         # Utility functions
-├── data/                # Sample data
-│   ├── mentors.json     # Example mentor dataset
-│   └── sessions.json    # Example session records
-├── docs/                # Documentation
-│   ├── API.md
-│   └── CONTRIBUTING.md
-└── tests/               # Unit tests
-    ├── test_matching.py
-    ├── test_chat.py
-    └── test_utils.py
+index.html
 
 💡 Usage Examples
 Mentor Discovery
@@ -109,12 +81,6 @@ Peer-to-Peer Mode
 A student can learn DSA from a senior while also mentoring juniors in Web Dev
 
 ⚙️ Configuration
-
-Update mentor dataset in data/mentors.json
-
-Modify recommendation weights in core/matching.py
-
-Add gamification logic in core/utils.py
 
 🧪 Testing
 # Run full test suite
