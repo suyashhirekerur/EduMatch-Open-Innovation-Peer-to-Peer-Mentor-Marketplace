@@ -32,8 +32,9 @@ A peer-to-peer mentor marketplace built to make mentorship affordable, accessibl
 🛠️ Technology Stack
 
 Frontend: HTML, CSS, JavaScript (Responsive UI)
-Backend & Real-Time Communication: Python (Flask/FastAPI planned for scaling)
-Storage: Local Storage (Script.js) → Future upgrade to Cloud DB
+Backend & Real-Time Communication: Python
+Storage: Local Storage (Script.js)
+
 Future Enhancements:
 
 Cloud integration for scalability
@@ -52,8 +53,7 @@ Git (for cloning project)
 
 🚀 Quick Start
 # Clone Repository
-git clone https://github.com/yourusername/edumatch-p2p-mentor.git
-cd edumatch-p2p-mentor
+git clone https://github.com/suyashhirekerur/EduMatch-Open-Innovation-Peer-to-Peer-Mentor-Marketplace
 
 # Install Dependencies
 pip install -r requirements.txt
